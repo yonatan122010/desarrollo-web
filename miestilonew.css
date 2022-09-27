@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+th{
+    margin:10px;
+    padding: 15px;
+    background-color: blue;
+    color:brown;
+}
+td{
+    margin: 5px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: aquamarine;
+}
+.tabla1{
+    border: 1px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: brown;
+    background-color: azure;
+    margin: 15px;
+
+
+
+}
+.titulo{
+    font-size: 40px;
+    color:yellow ;
+}
+.alerta:hover{
+    background-color: coral;
+    color:cornflowerblue;
+    
+
+}
+.alerta{
+    background-color:gold;
+    color:cornflowerblue;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    color:aqua;
+    padding: 15px;
+    border-radius: 25px;
+    border-style: dashed;
+    width: 50%;
+}
+.btn{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    background-color: black;
+    color: bisque;
+
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+}
