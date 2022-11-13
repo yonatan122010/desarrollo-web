@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function muestra(cnombre)
+        {
+            var nombre=cnombre.value;
+            alert("Eres" +nombre);
+            cnombre.value="";
+            cnombre.focus();
+        }
+        function pasa(secre,caja)
+        {
+            var temporal;
+            temporal=secre.value;
+            caja.value=temporal;
+
+        }
+        function ver(cedad)
+        {
+            var edad=parseInt(cedad.value);
+            if(edad<=18)
+            alert("no tiene acceso \n debes tener 18");
+            else
+            alert("bienvenido a la pagina");
+
+        }
+    </script>
+</head>
+<body>
+    <form>
+        Nombre:<input type="text"
+        name="cnombre" size="20">
+        <input type="button" value="Ver"
+        onclick=muestra(this.form.cnombre)
+        ;>
+    </form>
+    <br>
+    <form>
+        CONTRASEÑA:
+        <input type="password" name="secre" size="5"
+        onkeyup=pasa(secre,caja);>
+        <br>
+        NORMAL:
+        <input type="text"name="caja"size="5">
+    </form>
+    <br>
+    <form>
+    Edad:
+    <input type="text" name="cedad" size="3"
+    onBlur=ver(cedad);>
+</form>
+</body>
+</html>

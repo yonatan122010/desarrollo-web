@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/footer_lodyas.png);
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    backdrop-filter:blur(10px);
+
+    
+
+
+    
+
+    
+    
+    
+    
+}
+
+.container {
+margin-top: 10vh;
+color:white;
+height: 70vh;
+width: 30vw;
+background-image: url(/imagenes/imc.jpg);
+border-radius: 30px;
+box-shadow: 5px 5px 5px 1px black;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+opacity: 95%;
+
+
+}
+
+.container h1 {
+    margin-top: 30px;
+}
+
+.linha {
+    height: 5px;
+    width: 28vw;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.Formulario {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.6em;
+    align-items: center;
+
+    
+}
+
+.Formulario input {
+    height: 5vh;
+    width: 25vw;
+    border-radius: 2px;
+    border: none;
+    
+}
+.Formulario button {
+    margin-top: 20px;
+    width: 17vw;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #0a6577;
+    border-style: none;
+    color: white;
+    font-size: 80%;
+    text-shadow: 1px 1px 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.containerResultado {
+    height: 25vh;
+    width: 25vw;
+    background-color:  #0a6577;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    font-style: italic;
+
+}
+
+form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-device-width: 1366px) {
+    .container {
+        margin-top: 10vh;
+        color: white;
+        height: 80vh;
+        width: 35vw;
+        background-color:#003315 ;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px 1px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        opacity: 95%;
+
+}
+
+
+
+.containerResultado {
+    height: 20vh;
+    width: 30vw;
+    background-color:  #0a6577;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-style: italic;
+
+}
+
+}
+       
+
+@media screen and (max-device-width: 1200px) {
+    .container {
+        margin-top: 10vh;
+        color: white;
+        height: 85vh;
+        width: 50vw;
+        background-color:#003315 ;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px 1px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        opacity: 95%;
+
+}
+
+
+
+.containerResultado {
+    height: 23vh;
+    width: 45vw;
+    background-color:  #0a6577;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-style: italic;
+
+}
+
+.Formulario input {
+    height: 40px;
+    width: 30em;
+    border-radius: 2px;
+    border: none;
+
+}
+
+.Formulario button {
+    margin-top: 20px;
+    width: 30vw;
+    height: 10vh;
+    border-radius: 20px;
+    background-color: #0a6577;
+    border-style: none;
+    color: white;
+    font-size: 80%;
+    text-shadow: 1px 1px 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+}
+
+
+
+
+
+@media screen and (max-device-width: 850px) {
+    .container {
+        margin-top: 5vh;
+        color: white;
+        height: 80vh;
+        width: 60vw;
+        background-color:#003315 ;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px 1px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        opacity: 95%;
+
+}
+
+
+
+.containerResultado {
+    height: 30vh;
+    width: 50vw;
+    background-color:  #0a6577;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-style: italic;
+
+}
+
+.Formulario input {
+    height: 5vh;
+    width: 50vw;
+    border-radius: 2px;
+    border: none;
+
+}
+}
+
+
+@media screen and (max-device-width: 600px) {
+    .container {
+        margin-top: 2vh;
+        color: white;
+        height: 95vh;
+        width: 80vw;
+        background-color:#003315 ;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px 1px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        opacity: 95%;
+
+}
+
+
+
+.containerResultado {
+    height: 35vh;
+    width: 70vw;
+    background-color:  #0a6577;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 5px;
+
+}
+
+.Formulario input {
+    height: 5vh;
+    width: 70vw;
+    border-radius: 2px;
+    border: none;
+
+}
+
+.container h1 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.linha {
+    height: 5px;
+    width: 28vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Formulario {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.6em;
+    align-items: center;
+
+    
+}
+
+
+    
+}
+.Formulario button {
+    margin-top: 20px;
+    width: 20vw;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #0a6577;
+    border-style: none;
+    color: white;
+    font-size: 80%;
+    text-shadow: 1px 1px 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Formulario button:hover {
+    background-color: black;
+}
+
+div label {
+    font-size: 20px;
+}
